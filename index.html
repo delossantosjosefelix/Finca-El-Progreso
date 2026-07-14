@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Progreso — Finca Ganadera</title>
+    <link rel="icon" type="image/png" href="images/ElProgreso.png">
+    <link rel="apple-touch-icon" href="images/ElProgreso.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <header class="nav">
+        <div class="container">
+            <a class="logo" href="#inicio">
+                <img src="images/ElProgresosinletras.png" alt="El Progreso">
+                <span class="logo-text">El Progreso</span>
+            </a>
+            <nav>
+                <ul>
+                    <li data-section="inicio" data-target="#inicio">Inicio</li>
+                    <li data-section="nosotros" data-target="#nosotros">Nosotros</li>
+                    <li data-section="servicios" data-target="#servicios">Servicios</li>
+                    <li data-section="productos" data-target="#productos">Productos</li>
+                    <li data-section="galeria" data-target="#galeria">Galería</li>
+                    <li data-section="contacto" data-target="#contacto">Contacto</li>
+                </ul>
+            </nav>
+            <a class="btn" data-target="#contacto">Contáctanos</a>
+            <button class="hamburger" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <!-- Fondo de pantalla completa (Fotografía premium) -->
+        <div class="frame hero-bg-frame">
+            <img id="hero-zoom-bg" src="images/Hero.png" alt="Paisaje Finca El Progreso">
+        </div>
+        
+        <!-- Filtro de contraste suave -->
+        <div class="hero-overlay"></div>
+        
+        <!-- Contenido principal centrado -->
+        <div class="container hero-content-center">
+            <div class="hero-text-cinematic reveal-up">
+                <h1>Tradición que se cría</h1>
+                <p>Producción de leche y carne bovina de una finca familiar comprometida con la calidad, tres generaciones después.</p>
+            </div>
+            
+            <!-- Indicador discreto de scroll -->
+            <div class="scroll-indicator-container">
+                <span class="scroll-text">Desliza para explorar</span>
+                <div class="scroll-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTES / TESTIMONIO -->
+    <section>
+        <div class="container clients-grid">
+            <div class="reveal-up">
+                <div class="eyebrow">Nuestros Clientes</div>
+                <h2>Confían en nosotros</h2>
+                <p style="color:var(--gris);max-width:420px;margin-top:10px;">Distribuidores, comercios y familias que
+                    reciben nuestros productos cada semana.</p>
+                <div class="client-logos">
+                    <div class="client-logo-item">
+                        <img src="images/Logo_CNN.png" alt="CNN">
+                    </div>
+                    <div class="client-logo-item">
+                        <img src="images/Logo_Induveca.png" alt="Induveca">
+                    </div>
+                    <div class="client-logo-item">
+                        <img src="images/Logo_Ramos.png" alt="Grupo Ramos">
+                    </div>
+                    <div class="client-logo-item">
+                        <img src="images/Logo_Rica.png" alt="Rica">
+                    </div>
+                    <div class="client-logo-item">
+                        <img src="images/Logo_Yoka.png" alt="Yoka">
+                    </div>
+                    <div class="client-logo-item extra-logos">+24 más</div>
+                </div>
+            </div>
+            <div class="testimonial-frame frame reveal-fade" style="background-image: url('images/Cliente.png'); background-size: cover; background-position: center; overflow: hidden;">
+                <div class="quote">"El Progreso siempre entrega puntualidad y frescura en cada pedido." — Cliente
+                    distribuidor</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" style="padding:0; background:transparent;">
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 80C400 20 800 0 1200 30C1320 40 1380 60 1440 80V80H0Z" fill="#F1EDDF"/>
+            </svg>
+        </div>
+        
+        <!-- Bloque 1: Introducción y Estadísticas -->
+        <div class="nosotros-intro-block">
+            <div class="container about-split">
+                <div class="stats-block">
+                    <div class="stat-card">
+                        <div class="num">30+</div>
+                        <p>Años de experiencia</p>
+                    </div>
+                    <div class="stat-card accent">
+                        <div class="num">500+</div>
+                        <p>Cabezas de ganado</p>
+                    </div>
+                    <div class="stat-card accent">
+                        <div class="num">120</div>
+                        <p>Hectáreas de pastizal</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="num">15+</div>
+                        <p>Certificaciones</p>
+                    </div>
+                </div>
+                <div class="reveal-up">
+                    <div class="eyebrow">Sobre la Finca</div>
+                    <h2>Tres generaciones criando calidad</h2>
+                    <p style="color:var(--gris);margin:16px 0 20px;">Desde un pequeño terreno familiar hasta una de las productoras de leche y carne más reconocidas de la región, sin perder nuestra esencia.</p>
+                    <div class="about-media">
+                        <div class="frame">
+                            <img src="images/Instalaciones.png" alt="Instalaciones">
+                        </div>
+                        <div class="frame">
+                            <img src="images/Corrales.png" alt="Corrales">
+                        </div>
+                        <div class="frame">
+                            <img src="images/Sala_Ordeno.png" alt="Sala de Ordeño">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bloque 2: Historia y Filosofía Juntos (Fondo crema, divisor curvo) -->
+        <div class="nosotros-history-philosophy-block">
+            <!-- Divisor curvo SVG con relleno crema (suaviza paso desde bloque beige) -->
+            <div class="section-divider">
+                <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <path d="M0 80C240 60 480 30 720 50C960 70 1200 40 1440 80V80H0Z" fill="#FAF6ED"/>
+                </svg>
+            </div>
+
+            <div class="container reveal-up">
+                <!-- Fila Superior: Historia (Layout Original) -->
+                <div class="history-row">
+                    <!-- Columna Izquierda: Foto grande con sombra rígida -->
+                    <div class="history-media">
+                        <div class="frame history-photo-frame">
+                            <img src="images/InstalacionesAntiguas.png" alt="Instalaciones antiguas de Finca El Progreso">
+                        </div>
+                    </div>
+                    
+                    <!-- Columna Derecha: Texto descriptivo de estilo editorial -->
+                    <div class="history-content">
+                        <span class="eyebrow">Nuestra trayectoria</span>
+                        <h3>El origen de un legado familiar</h3>
+                        <p class="lead-text">Fundada hace más de tres generaciones, Finca El Progreso comenzó como un pequeño sueño familiar con unas pocas cabezas de ganado en las fértiles tierras de Jarabacoa.</p>
+                        <p>Con trabajo incansable, dedicación y el paso de los años, nos hemos adaptado a las nuevas tecnologías de ordeño y manejo bovino, convirtiéndonos en un referente de la región sin perder jamás el respeto por la tierra.</p>
+                    </div>
+                </div>
+
+                <!-- Fila Inferior: Filosofía (3 Columnas Horizontales) -->
+                <div class="philosophy-grid">
+                    <!-- Misión -->
+                    <div class="philosophy-card card-mision" data-card="mision">
+                        <div class="philosophy-header">
+                            <span class="philosophy-title">
+                                <i class="fa-solid fa-bullseye"></i> Misión
+                            </span>
+                            <i class="fa-solid fa-chevron-down philosophy-arrow"></i>
+                        </div>
+                        <div class="philosophy-content">
+                            <div class="philosophy-content-inner">
+                                <p>Producir y distribuir leche y carne bovina de la más alta calidad y frescura, empleando prácticas agrícolas sostenibles y tecnologías de vanguardia que garanticen el bienestar animal, satisfaciendo la demanda nutricional de las familias dominicanas y agregando valor a nuestros clientes y colaboradores.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visión -->
+                    <div class="philosophy-card card-vision" data-card="vision">
+                        <div class="philosophy-header">
+                            <span class="philosophy-title">
+                                <i class="fa-solid fa-compass"></i> Visión
+                            </span>
+                            <i class="fa-solid fa-chevron-down philosophy-arrow"></i>
+                        </div>
+                        <div class="philosophy-content">
+                            <div class="philosophy-content-inner">
+                                <p>Ser reconocidos como la finca ganadera modelo del Caribe, líder en eficiencia productiva, innovación genética y sostenibilidad ambiental, promoviendo la tradición familiar del campo e inspirando a futuras generaciones en el desarrollo agropecuario responsable.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Valores -->
+                    <div class="philosophy-card card-valores" data-card="valores">
+                        <div class="philosophy-header">
+                            <span class="philosophy-title">
+                                <i class="fa-solid fa-handshake"></i> Valores
+                            </span>
+                            <i class="fa-solid fa-chevron-down philosophy-arrow"></i>
+                        </div>
+                        <div class="philosophy-content">
+                            <div class="philosophy-content-inner">
+                                <ul class="valores-list-refined">
+                                    <li>
+                                        <strong>Integridad</strong>
+                                        <span>Actuamos con transparencia y honestidad en cada proceso de producción y negocio.</span>
+                                    </li>
+                                    <li>
+                                        <strong>Calidad Premium</strong>
+                                        <span>Buscamos la excelencia desde el cuidado del pasto hasta el producto final entregado.</span>
+                                    </li>
+                                    <li>
+                                        <strong>Bienestar Animal</strong>
+                                        <span>Respetamos y cuidamos a nuestro ganado con nutrición óptima y salud rigurosa.</span>
+                                    </li>
+                                    <li>
+                                        <strong>Sostenibilidad</strong>
+                                        <span>Protegemos los recursos naturales y la biodiversidad de Jarabacoa para el futuro.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>             </div>
+            </div>
+        </div>
+
+        <!-- Bloque 4: Equipo de Trabajo (Fondo beige, divisor curvo) -->
+        <div class="nosotros-team-block">
+            <!-- Divisor curvo SVG con relleno beige (suaviza paso desde bloque crema) -->
+            <div class="section-divider">
+                <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <path d="M0 80C400 20 800 0 1200 30C1320 40 1380 60 1440 80V80H0Z" fill="#F1EDDF"/>
+                </svg>
+            </div>
+
+            <div class="container reveal-up">
+                <div class="section-head-center">
+                    <span class="eyebrow">Nuestro equipo</span>
+                    <h2>El personal detrás de la calidad</h2>
+                    <p>Un grupo comprometido con la excelencia ganadera y el bienestar animal en cada etapa del proceso.</p>
+                </div>
+                
+                <div class="team-grid">
+                    <!-- Miembro 1 -->
+                    <div class="team-card">
+                        <div class="team-photo-container">
+                            <div class="frame team-photo-frame">
+                                <img src="images/Ingeniero.png" alt="Ing. Carlos Del Rosario - Operaciones">
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <div class="team-badge-container">
+                                <span class="team-role-badge">Operaciones</span>
+                            </div>
+                            <h3>Ing. Carlos Del Rosario</h3>
+                            <p>Encargado de la tecnificación de procesos, trazabilidad de ordeño y gestión de pastizales.</p>
+                            <div class="team-contact">
+                                <a href="mailto:carlos@fincaelprogreso.com" aria-label="Enviar correo"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Miembro 2 -->
+                    <div class="team-card">
+                        <div class="team-photo-container">
+                            <div class="frame team-photo-frame">
+                                <img src="images/Fundador.png" alt="Don Mateo Del Rosario - Fundador" class="founder-img">
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <div class="team-badge-container">
+                                <span class="team-role-badge">Fundador</span>
+                            </div>
+                            <h3>Don Mateo Del Rosario</h3>
+                            <p>Con más de tres décadas de experiencia liderando el desarrollo ganadero sostenible en Jarabacoa.</p>
+                            <div class="team-contact">
+                                <a href="mailto:mateo@fincaelprogreso.com" aria-label="Enviar correo"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Miembro 3 -->
+                    <div class="team-card">
+                        <div class="team-photo-container">
+                            <div class="frame team-photo-frame">
+                                <img src="images/Veterinaria.png" alt="Dra. Laura Gómez - Veterinaria">
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <div class="team-badge-container">
+                                <span class="team-role-badge">Veterinaria</span>
+                            </div>
+                            <h3>Dra. Laura Gómez</h3>
+                            <p>Responsable del bienestar animal, planes de nutrición y control sanitario preventivo.</p>
+                            <div class="team-contact">
+                                <a href="mailto:laura@fincaelprogreso.com" aria-label="Enviar correo"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 80C240 60 480 30 720 50C960 70 1200 40 1440 80V80H0Z" fill="var(--crema)"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="section-head reveal-up">
+                <div class="eyebrow">Servicios</div>
+                <h2>Todo lo que la finca ofrece</h2>
+            </div>
+            <div class="services-carousel-container">
+                <div class="services-carousel-viewport">
+                    <div class="services-carousel-track">
+                        <div class="service-card card-milk">
+                            <div class="frame">
+                                <img src="images/Produccion de Leche.png" alt="Producción de Leche">
+                            </div>
+                            <div class="body">
+                                <h4>Producción de Leche</h4>
+                                <p>Ordeño diario con trazabilidad completa y control sanitario riguroso.</p><a
+                                    class="btn btn-outline" data-target="#contacto">Más información</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="frame">
+                                <img src="images/Venta de Ganado.png" alt="Venta de Ganado">
+                            </div>
+                            <div class="body">
+                                <h4>Venta de Ganado</h4>
+                                <p>Animales certificados con historial sanitario disponible y asesoría en la compra.</p><a
+                                    class="btn btn-outline" data-target="#contacto">Más información</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="frame">
+                                <img src="images/Produccion de Carne.png" alt="Producción de Carne">
+                            </div>
+                            <div class="body">
+                                <h4>Producción de Carne</h4>
+                                <p>Carne bovina premium, sin hormonas, con corte especializado.</p><a class="btn btn-outline"
+                                    data-target="#contacto">Más información</a>
+                            </div>
+                        </div>
+                        <div class="service-card card-consulting">
+                            <div class="frame">
+                                <img src="images/consultoria.png" alt="Asesoría Agropecuaria">
+                            </div>
+                            <div class="body">
+                                <h4>Asesoría Agropecuaria</h4>
+                                <p>Acompañamiento técnico con visitas y planes personalizados.</p><a class="btn btn-outline"
+                                    data-target="#contacto">Más información</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="frame">
+                                <img src="images/Crianza y Reproduccion Bovina.png" alt="Crianza y Reproducción Bovina">
+                            </div>
+                            <div class="body">
+                                <h4>Crianza y Reproducción Bovina</h4>
+                                <p>Genética certificada y seguimiento veterinario constante.</p><a class="btn btn-outline"
+                                    data-target="#contacto">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botones de navegación estilo Apple/Framer -->
+                <button class="carousel-btn prev-btn" aria-label="Anterior">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <button class="carousel-btn next-btn" aria-label="Siguiente">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" style="background:#F1EDDF;">
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 80C360 10 720 0 1080 30C1260 45 1350 65 1440 80V80H0Z" fill="#F1EDDF"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="section-head reveal-up">
+                <div class="eyebrow">Productos</div>
+                <h2>Directo de nuestra finca</h2>
+            </div>
+            <div class="product-showcase">
+                <!-- Bloque Destacado Principal -->
+                <div class="product-showcase-highlight">
+                    <div class="product-showcase-visual">
+                        <div class="frame active-product-frame">
+                            <div class="product-slide-wrapper">
+                                <img id="active-product-image-el" src="images/Leche.png" alt="Leche Fresca">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-showcase-info">
+                        <h3 id="active-product-title">Leche fresca</h3>
+                        <p id="active-product-description">Producida diariamente a partir de ganado seleccionado y alimentado en pastizales naturales, siguiendo procesos cuidadosos para conservar su frescura y calidad.</p>
+                        <div class="price-wrapper">
+                            <span class="price" id="active-product-price">RD$70 / galón</span>
+                        </div>
+                        <div class="product-features-container">
+                            <h5>Características</h5>
+                            <ul class="product-features-list" id="active-product-features">
+                                <li><span class="bullet"></span>Producción diaria</li>
+                                <li><span class="bullet"></span>Control sanitario</li>
+                                <li><span class="bullet"></span>Manejo responsable del ganado</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Selector de Productos Secundarios -->
+                <div class="product-selector-wrapper">
+                    <h4>Nuestros Productos</h4>
+                    <div class="product-selector-grid">
+                        <div class="product-selector-item active" data-product="leche">
+                            <div class="selector-thumb">
+                                <img src="images/Leche.png" alt="Leche fresca">
+                            </div>
+                            <span class="selector-name">Leche fresca</span>
+                        </div>
+                        <div class="product-selector-item" data-product="queso">
+                            <div class="selector-thumb">
+                                <img src="images/Queso.png" alt="Queso artesanal">
+                            </div>
+                            <span class="selector-name">Queso artesanal</span>
+                        </div>
+                        <div class="product-selector-item" data-product="yogur">
+                            <div class="selector-thumb">
+                                <img src="images/Yogur.png" alt="Yogur">
+                            </div>
+                            <span class="selector-name">Yogur</span>
+                        </div>
+                        <div class="product-selector-item" data-product="ganado">
+                            <div class="selector-thumb">
+                                <img src="images/Ganado.png" alt="Ganado">
+                            </div>
+                            <span class="selector-name">Ganado</span>
+                        </div>
+                        <div class="product-selector-item" data-product="carne">
+                            <div class="selector-thumb">
+                                <img src="images/Carne.png" alt="Carne premium">
+                            </div>
+                            <span class="selector-name">Carne premium</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria">
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 80C180 50 360 20 720 50C1080 80 1260 60 1440 80V80H0Z" fill="var(--crema)"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="section-head reveal-up">
+                <div class="eyebrow">Galería</div>
+                <h2>Nuestra finca en imágenes</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="frame"><img src="images/G_Ganado1.png" alt="Ganado"></div>
+                <div class="frame"><img src="images/G_Corrales.png" alt="Corrales"></div>
+                <div class="frame"><img src="images/G_Pastizales.png" alt="Pastizales"></div>
+                <div class="frame"><img src="images/G_Ordenando.png" alt="Ordeño"></div>
+                <div class="frame"><img src="images/G_Trabajando.png" alt="Personal trabajando"></div>
+                <div class="frame"><img src="images/G_Instalaciones.png" alt="Instalaciones"></div>
+                <div class="frame"><img src="images/G_Ganado2.png" alt="Ganado 2"></div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contacto" style="background:#F1EDDF;">
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 80C400 30 800 0 1200 20C1320 25 1380 50 1440 80V80H0Z" fill="#F1EDDF"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="section-head reveal-up">
+                <div class="eyebrow">Contacto</div>
+                <h2>Escríbenos o visítanos</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="reveal-up">
+                    <ul class="contact-info">
+                        <li><span class="icon-dot"><i class="fas fa-location-dot"></i></span> Paraje Los Dajaos, Carretera Jarabacoa&#8211;Constanza, Rep. Dominicana</li>
+                        <li><span class="icon-dot"><i class="fas fa-phone"></i></span> (809) 555-0192</li>
+                        <li><span class="icon-dot"><i class="fas fa-envelope"></i></span> contacto@fincaelprogreso.com</li>
+                        <li><span class="icon-dot"><i class="fas fa-clock"></i></span> Lunes a S&aacute;bado, 7:00 a.m. &#8211; 5:00 p.m.</li>
+                    </ul>
+                    <div class="frame" style="height:220px;overflow:hidden;padding:0;">
+                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-70.6600%2C19.0800%2C-70.5900%2C19.1400&amp;layer=mapnik&amp;marker=19.1167%2C-70.6333" style="border:none;width:100%;height:100%;" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <form class="contact-form reveal-fade" style="transition-delay: 0.1s;">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Correo electr&oacute;nico" required>
+                    <textarea rows="5" placeholder="Mensaje" required style="resize:none;"></textarea>
+                    <button type="submit" class="btn" style="justify-content:center;border:none;">Enviar</button>
+                    <div class="form-success"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="section-divider">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 80C300 40 600 20 900 45C1100 60 1270 50 1440 80V80H0Z" fill="var(--verde-oscuro)"/>
+            </svg>
+        </div>
+        <div class="container footer-grid">
+            <div>
+                <div class="logo logo-footer">
+                    <img src="images/ElProgresosinletras.png" alt="El Progreso">
+                    <span class="logo-text">El Progreso</span>
+                </div>
+                <p style="color:#B9C9AA;font-size:.85rem;margin-top:14px;max-width:280px;">Finca ganadera familiar
+                    dedicada a la producción de leche y carne bovina.</p>
+            </div>
+            <div>
+                <h4>Navegación</h4>
+                <ul>
+                    <li data-target="#inicio">Inicio</li>
+                    <li data-target="#nosotros">Nosotros</li>
+                    <li data-target="#servicios">Servicios</li>
+                    <li data-target="#productos">Productos</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Servicios</h4>
+                <ul>
+                    <li data-target="#servicios">Producción de Leche</li>
+                    <li data-target="#servicios">Venta de Ganado</li>
+                    <li data-target="#servicios">Producción de Carne</li>
+                    <li data-target="#servicios">Asesoría</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <ul>
+                    <li>Jarabacoa, RD</li>
+                    <li>(809) 555-0192</li>
+                    <li>contacto@fincaelprogreso.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>© 2026 El Progreso. Todos los derechos reservados.</span>
+            <span>Política de privacidad · Términos</span>
+        </div>
+    </footer>
+
+    <!-- Lightbox de galería -->
+    <div class="lightbox-overlay">
+        <div class="lightbox-box">
+            <button class="lightbox-close">&times;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
