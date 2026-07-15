@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /* -------- Lógica de Productos Interactiva (Showcase) -------- */
   const productsData = {
     leche: {
-      imagePath: "images/Leche.png",
+      imagePath: "images/Leche.webp",
       title: "Leche fresca",
       description: "Producida diariamente a partir de ganado seleccionado y alimentado en pastizales naturales, siguiendo procesos cuidadosos para conservar su frescura y calidad.",
       price: "RD$70 / galón",
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
     },
     queso: {
-      imagePath: "images/Queso.png",
+      imagePath: "images/Queso.webp",
       title: "Queso artesanal",
       description: "Elaborado localmente con métodos tradicionales para asegurar un sabor y textura excepcionales, conservando la esencia de la leche pura de nuestra finca.",
       price: "RD$350 / kg",
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
     },
     yogur: {
-      imagePath: "images/Yogur.png",
+      imagePath: "images/Yogur.webp",
       title: "Yogur",
       description: "Yogur natural fresco, libre de conservantes artificiales y procesado artesanalmente para mantener todas sus propiedades y bacterias benéficas.",
       price: "RD$120 / litro",
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
     },
     ganado: {
-      imagePath: "images/Ganado.png",
+      imagePath: "images/Ganado.webp",
       title: "Ganado",
       description: "Ejemplares de excelente genética, seleccionados y criados bajo rigurosos protocolos sanitarios para garantizar el mejor desempeño reproductivo en el trópico.",
       price: "Precio a consultar",
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
     },
     carne: {
-      imagePath: "images/Carne.png",
+      imagePath: "images/Carne.webp",
       title: "Carne premium",
       description: "Cortes bovinos de alta calidad provenientes de animales alimentados exclusivamente en pastizales verdes, garantizando suavidad, jugosidad y gran sabor.",
       price: "RD$280 / lb",
